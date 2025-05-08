@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 0;
+        }
+        nav ul li {
+            color: white;
+            cursor: pointer;
+        }
+
+        .hero {
+            background-image: url('bg.jpg');
+            background-size: cover;
+            padding: 100px;
+            text-align: center;
+            color: rgb(80, 125, 170);
+        }
+        .hero h1{
+            font-size: 48px;
+        }
+        .hero p {
+            font-weight: bold;
+        }
+        .about, .menu, .contact {
+            padding: 40px;
+            text-align: center;
+            
+            
+        }
+
+        
+        
+        .menu-item {
+            margin: 20px 0;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .pic {
+            width: 300px;  /* Adjust the width */
+            height: 200px; /* Adjust the height */
+            overflow: hidden; 
+            border-radius: 12px;
+            margin-bottom: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  
+        }
+    
+        .pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;  /* Ensures the image covers the container */
+            transition: transform 0.3s ease;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="head">
+        <h1>Delicious Bites </h1>
+        <nav>
+            <ul class="Navlist">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Login</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Experience the Taste of Authentic Cuisine!</h1>
+        <p>Delicious dishes crafted with love and passion.</p>
+    </div>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>At Delicious Bites, we offer a range of traditional and modern dishes made with fresh ingredients.</p>
+    </section>
+
+    <section class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <div class="pic"><img src="biryani.jpg" alt="Biryani"></div>
+            <h3>Biryani</h3>
+            <p>Fragrant basmati rice cooked with aromatic spices and tender chicken.</p>
+        </div>
+        <div class="menu-item">
+            <div class="pic"><img src="Dishes.jpeg" alt="Karhai"></div>
+            <h3>Karahi</h3>
+            <p>Spicy and savory chicken curry cooked with tomatoes, green chilies, and spices.</p>
+        </div>
+        <div class="menu-item">
+            <div class="pic"><img src="BBQ.jpeg" alt="BBQ"></div>
+            <h3>BBQ Platter</h3>
+            <p>A delicious assortment of grilled chicken, kebabs, and ribs served with naan.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out for reservations or inquiries.</p>
+        <form>
+            <input type="text" placeholder="Your Name" required><br><br>
+            <input type="email" placeholder="Your Email" required><br><br>
+            <textarea placeholder="Your Message" rows="4"></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Delicious Bites. All rights reserved.</p>
+    </footer>
+</body>
+</html>
