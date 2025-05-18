@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <div>
+        <h1>Student Registration Form using Table HTML</h1>
+    </div>
+    <form class="form" action="/">
+        <table>
+            <tr>
+                <td><h4>First Name</h4></td>
+                <td><input type="text" placeholder="Asad"> (Max 50 Character Allowed)</td>
+            </tr>
+
+              <tr>
+                <td><h4>Last Name</h4></td>
+                <td><input type="text" placeholder="Ali"> (Max 50 Character Allowed)</td>
+            </tr>
+
+              <tr>
+                <td><h4>Email ID</h4></td>
+                <td><input type="email" placeholder="asadali@gmail.com"></td>
+            </tr>
+
+              <tr>
+                <td><h4>Mobile Number</h4></td>
+                <td><input type="number" placeholder="30327xxxxx"> (10 Digits Allowed)</td>
+            </tr>
+
+              <tr>
+                <td><h4>Gender</h4></td>
+                <td><input type="radio" name="Gender" value="Male"> Male
+                    <input type="radio" name="Gender" value="Female">Female</td>
+            </tr>
+
+              <tr>
+                <td><h4>Date of Birth (DOB)</h4></td>
+                <td><input type="date"></td>
+            </tr>
+
+              <tr>
+                <td><h4>Address</h4></td>
+                <td><textarea name="address" id="1"></textarea></td>
+            </tr>
+
+              <tr>
+                <td><h4>City</h4></td>
+                <td><input type="text" placeholder="Karachi"> (Max 50 Character Allowed)</td>
+            </tr>
+
+              <tr>
+                <td><h4>Pin Code</h4></td>
+                <td><input type="password" placeholder="586922"> (Max 06 Number Allowed)</td>
+            </tr>
+
+              <tr>
+                <td><h4>First Name</h4></td>
+                <td><input type="text" placeholder="Asad"> (Max 50 Character Allowed)</td>
+            </tr>
+
+              <tr>
+                <td><h4>State</h4></td>
+                <td><input type="text" placeholder="Karachi Quaidabad"> (Max 50 Character Allowed)</td>
+            </tr>
+
+              <tr>
+                <td><h4>Country</h4></td>
+                <td><select name="countries" id="countries">
+                    <option value="">--Select a Country--</option>
+                    <option value="pakistan">Pakistan</option>
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">UK</option>
+                    </select>
+                </td>
+            </tr>
+
+              <tr>
+                <td><h4>Hobbies</h4></td>
+                <td class="hob">
+                    <input type="checkbox" name="Hobbies" value="Drwaing">Drawing
+                    <input type="checkbox" name="Hobbies" value="Dansing">Dansing
+                    <input type="checkbox" name="Hobbies" value="Singing">Singing
+                    <input type="checkbox" name="Hobbies" value="Programming">Programming
+                    <input type="checkbox" name="Hobbies" value="Other">Other
+                     <input type="text" placeholder="Ex-Teaching"> (Max 50 Character Allowed)
+                </td>
+            </tr>
+
+            <tr>
+                <td><h4>Qualification</h4></td>
+                <td class="qual">
+                    <input type="checkbox" name="Qualification" value="High School(10th)">High School(10th)
+                    <input type="checkbox" name="Qualification" value="Higher School(12th)">Higher School(12th)
+                    <input type="checkbox" name="Qualification" value="Graduation(Bachelors)">Graduation(Bachelors)
+                    <input type="checkbox" name="Qualification" value="Post Graduation(Mater)">Post Graduation(Mater)
+                    <input type="checkbox" name="Qualification" value="PHD">PHD
+                </td>
+            </tr>
+
+             <tr>
+                <td><h4>Courses Applied For</h4></td>
+                <td class="cours">
+                    <input type="radio" name="course" value="BCA">BCA (Bachelor of Computer Application)
+                    <input type="radio" name="course" value="B.Com">B.com (Bachelor of Commerce)
+                    <input type="radio" name="course" value="BSC">B.Sc (Bachelor of Sceince)
+                    <input type="radio" name="course" value="BA">BA (Bachelor of Arts)
+                    <input type="radio" name="course" value="MCA">MCA (Master of Computer Application)
+                    <input type="radio" name="course" value="M.Com">M.Com (Master of Commerce)
+                    <input type="radio" name="course" value="M.SC">M.Sc (Master of Sceince)
+                    <input type="radio" name="course" value="MA">MA (Master of Arts)
+                </td>
+            </tr>
+        </table>
+
+        <button type="submit">submit</button>
+        <button type="submit">Reset</button>
+    </form>
+</body>
+</html>
