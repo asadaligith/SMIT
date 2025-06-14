@@ -33,6 +33,10 @@ body {
     margin: 0;
     line-height: 1.2;
 }
+#sir{
+    font-size: large;
+    color: hsla(246, 77%, 52%, 0.5);
+}
 
 #para1{
     text-indent: 35px;
@@ -51,10 +55,7 @@ body {
     align-items: end;
     padding-right: 80px;
 }
-#sir{
-    font-size: large;
-    color: hsla(246, 77%, 52%, 0.5);
-}
+
 #my_name{
     
     letter-spacing: 5px;
