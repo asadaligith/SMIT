@@ -11,6 +11,7 @@ body {
 }
 .section {
     width: 70%;
+    margin-top:30px;
 }
 
 #letter{
@@ -21,17 +22,33 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     line-height: 1.8; 
 }
+
+#leave{
+    text-align: center;
+}
+#leave:hover{
+    background-color: blue;
+}
    
 
 
 #to{
     color: blue;
 }
-#smit {
+#to:hover{
+    background-color: blue;
+    color:white;
+}
+
+.smit {
     text-indent: 35px;
     color: hsla(246, 77%, 52%, 0.5);
     margin: 0;
     line-height: 1.2;
+}
+.smit:hover{
+    background-color: blue;
+    color: white;
 }
 #sir{
     font-size: large;
@@ -42,23 +59,23 @@ body {
     text-indent: 35px;
 
 }
+#para1:hover{
+    background-color: blue;
+    color: white;
+}
+#para2:hover{
+    background-color: blue;
+    color: white;
+}
 
 #para2{
     text-indent: 35px;
 
 }
 
-#name{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: end;
+.name{
+   
+    text-align: right;
     padding-right: 80px;
 }
 
-#my_name{
-    
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-size: large;
-}
